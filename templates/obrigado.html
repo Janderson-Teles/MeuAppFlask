@@ -11,6 +11,9 @@
                 <a class="btn btn-success" href="https://wa.me/55{{ whatsapp | replace('(', '') | replace(')', '') | replace(' ', '') | replace('-', '') }}" target="_blank">
                     Falar no WhatsApp
                 </a>
+                <div class="text-center mt-3">
+                <a href="{{ url_for('index') }}" class="btn btn-outline-secondary">Voltar para a Página Inicial</a>
+                </div>
             </div>
         </div>
 {% endblock content %}
