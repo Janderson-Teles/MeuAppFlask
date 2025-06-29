@@ -41,7 +41,7 @@ def index():
 @app.route("/obrigado")
 def obrigado():
     nome = session.get("nome", "Cliente")
-    whatsapp = "(61) 99443-5075"  # Altere para seu número real
+    whatsapp = "(61) 999999999"  # Altere para seu número real
     return render_template(
         "obrigado.html", 
         nome=nome, 
